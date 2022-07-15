@@ -1,0 +1,154 @@
+/* 1200px */
+@media(max-width: 75em) {
+    html {
+      font-size: 56.25%;
+    }
+
+    .loginContent #loginForm h1 {
+        font-size: 4rem;
+    }
+}
+  
+
+/* 944px */
+@media (max-width: 59em) {
+    html {
+      font-size: 50%;
+    }
+
+    .twitterImg {
+        display: none;
+    }
+
+    .loginContainer {
+        width: 100%;
+    }
+
+    .loginContent {
+        max-width: 50rem;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+    }
+
+    .container {
+        display: block;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 5rem;
+    }
+
+    .container .leftSide {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: none;
+        width: 100%;
+        margin: 0 auto;
+        padding: 5rem 0 12rem 0;
+    }
+
+    .leftSide a i {
+        margin: 0;
+    }
+
+    .leftSide .profileImg {
+        width: 6rem;
+        height: 6rem;
+        margin: 0;
+    }
+
+    .usernameBox {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+    }
+
+    .emailBox {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+    }
+
+    .leftSide #username {
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .leftSide #email {
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    .leftSide #editAccount {
+        width: 6rem;
+        height: 6rem;
+        margin: 0;
+        line-height: 5rem;
+        text-align: center;
+    }
+
+    #editAccount span {
+        display: none;
+    }
+
+    #editAccount i {
+        display: block;
+    }
+    
+    .leftSide #logout {
+        width: 6rem;
+        height: 6rem;
+        line-height: 5rem;
+        text-align: center;
+    }
+
+    #logout span {
+        display: none;
+    }
+
+    #logout i {
+        display: block;
+    }
+    
+    .rightSide {
+        margin: 0 auto;
+    }
+
+    .rightSide #postForm {
+        border-top: solid 1px var(--border);
+    }
+
+    .signupModalTwitter {
+        width: 50rem !important;
+    }
+
+}
+
+
+/* 544px */
+@media (max-width: 34em) {
+    .loginContent {
+        padding: 5rem;
+    }
+
+    .signupModal {
+        max-width: 55rem;
+    }
+
+    .signupModalTwitter {
+        width: 350px !important;
+    }
+}
+  
+  
+  
+  

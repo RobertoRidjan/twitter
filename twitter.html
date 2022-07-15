@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queriss.css">
+
+    <title>Twitter Clone</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="leftSide">
+            <a href="twitter.html"><i class="fa-brands fa-twitter"></i></a>
+            <img class="profileImg" src="img/profile.png" alt="">
+            <span class="usernameBox">Username: <p id="username"></p></span>
+            <span class="emailBox">Email: <p id="email"></p></span>
+
+            <button id="editAccount"><span>Settings</span><i class="fa-solid fa-gear"></i></button>
+            <button id="logout"><span>log out</span><i class="fa-solid fa-right-from-bracket"></i></button>
+        </div>
+
+        <div class="rightSide">
+            <form id="postForm">
+                <textarea id="tweetInputText" placeholder="What's happening?"></textarea>
+                <button id="tweetBtn">Tweet</button>
+            </form>
+
+            <div id="allPostWrapper">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="signupModalTwitter">
+        <button id="closeModalTwitter"><i class="fa-solid fa-xmark"></i></button>
+        <i class="fa-brands fa-twitter signupModal_logo"></i>
+
+        <form id="editFormTwitter">
+            <h2>Settings</h2>
+
+            <div>
+                <input id="editUsername" type="text" name="signup_username" placeholder="Username"></input>
+            </div>
+
+            <div>
+                <input id="editEmail" type="text" name="signup_email" placeholder="Email"></input>
+            </div>
+            
+            <div>
+                <button id="editBtn">Confirm</button>
+            </div>
+
+            <button id="deleteProfile">Delete your Twitter</button>
+        </form>
+    </div>
+
+    <script src="js/Session.js"></script>
+    <script src="js/User.js"></script>
+    <script src="js/Comment.js"></script>
+    <script src="js/Post.js"></script>
+    <script src="js/twitter.js"></script>
+
+</body>
+</html>
+
+
+
